@@ -5,8 +5,8 @@ description: Global Chart to deploy multi applications
 dependencies:
   - name: sealed-secrets
     condition: sealed-secrets.enabled
-    repository: oci://registry-1.docker.io/bitnamicharts/ 
-    version: ~9.3
+    repository: https://charts.bitnami.com/bitnami 
+    version: 2.5.19
 
 # A chart can be either an 'application' or a 'library' chart.
 #
