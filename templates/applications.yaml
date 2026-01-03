@@ -1,8 +1,12 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: guestbook
-  namespace: guestbook
+  name: aolglobalchart
+  namespace: aolglobalchart
+  source:
+    repoURL: git@github.com:aol56/k8schart.git
+    targetRevision: main
+    path: .
   syncPolicy:
     automated:
       prune: true
