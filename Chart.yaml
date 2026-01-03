@@ -5,7 +5,7 @@ description: Global Chart to deploy multi applications
 dependencies:
   - name: sealed-secrets
     condition: sealed-secrets.enabled
-    repository: https://bitnami-labs.github.io/sealed-secrets
+    repository: https://bitnami-labs.github.io/
     version: ~9.3
 
 # A chart can be either an 'application' or a 'library' chart.
